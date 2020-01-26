@@ -5,7 +5,6 @@
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
       <header>
           <nav>
            <div>
@@ -39,31 +38,35 @@
            </div>          
          </nav>
       </header>
-      <main>
-          <section>
-              <h1> Контактная информация</h1>
-              <p>
-                Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br>
-                строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
-              </p>
-              <p>
-                Мы можем доставить ваш товар в самые отдаленные точки России!<br>
-                Техномарт работает со многими транспортными компаниями:
-              </p>
-              <ul>
-                  <li>Деловые линии</li>
-                  <li>Автотрейдинг</li>
-                  <li>ЖелДорЭкспедиция</li>                             
-              </ul>
-              <a href="№">Подробнее о компании</a>
-              <section>
-                  <h1>Контакты</h1>
-                  <p>Вы можете забрать товар сами,<br> 
-                    заехав в наш офис:</p>
-                    <a href="map.html"></a>
-                    <a href="№">Заблудились?Напишите нам</a>
-              </section>
+      <main class="container">
+          <ul class="breadcrumbs">
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Инструмент</a></li>
+              <li class="breadcrumbs-current">Перфораторы</li>
+          </ul>
+          <p>Перфораторы</p>
+          <section class="filter">
+              <h2 class="visually-hidden">Фильтр товаров</h2>
+              <!--Здесь будет форма для фильтрации-->
           </section>
+          <section class="catalog">
+              <h2 class="visually-hidden">Список перфораторов</h2>
+                <ul class="catalog-list">
+                  <li class="catalog-item">
+                      <h3>
+                          <a href="#">Перфоратор BOSCH <br>BFG 3000 </a>
+                     </h3>
+                      <p class="catalog-item-image">
+                        <a href="#">
+                          <img src="" width="220" height="165" alt="Перфоратор BOSCH BFG 3000">
+                        </a>
+                      </p>
+                      <p><del>22500 Р</del></p>
+                      <a class="button" href="#">15500 Р</a>
+                   </li>
+                                
+            </ul>
+          </section>                 
       </main>
       <footer>
           <section>
@@ -106,4 +109,3 @@
       </footer>
   </body>
 </html>
-    
