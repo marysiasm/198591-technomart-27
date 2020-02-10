@@ -1,0 +1,522 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cuprum-Regular", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: normal;
+    background-color: #f4f7f9;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-navigation-top .logo {
+    width: 220px;
+    height: 47px;
+    background-color: #ee3643;
+}
+
+.main-navigation {
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.main-navigation-top {
+    background-color: #293449;
+    font-size: 17px;
+    line-height: 18x;
+}
+
+.main-navigation-middle {
+    font-size: 16px;
+    line-height: 23px;
+    color: #e9292a;
+}
+
+.main-navigation-middle a {
+    font-size: 21px;
+    line-height: 21px;
+    color: #e9292a;
+}
+
+.addres {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #32425c;
+}
+
+button {
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.site-navigation {
+    background-color: #293449;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.site-navigation li {
+    list-style-type: none;
+}
+
+.block {
+    background-color: #ffffff;
+}
+
+.block li {
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    width: 300px;
+    height: 123px;
+}
+
+.block a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.material {
+    background-color: #ffbf47;
+}
+
+.tool {
+    background-color: #3bbce3;
+}
+
+.tech {
+    background-color: #dc91d8;
+}
+
+.sale {
+    background-color: #8ed78f;
+}
+
+.delivery {
+    background-color: #ffc047;
+}
+
+.slider {
+    background-color: white;
+}
+
+.slider li {
+    list-style-type: none;
+}
+
+.slider h2 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.slider p {
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.slider a {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    background-color: #ee3643;
+}
+
+.popular-item {
+    background-color: #ffffff;
+}
+
+.popular-item h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #32425c;
+    background-color: #f9f5f0;
+}
+
+.catalog-list li {
+    list-style-type: none;
+}
+
+.catalog-item a {
+    font-size: 18px;
+    line-height: 20px;
+    width: 155px;
+    height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.catalog-item p {
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.old-price {
+    color: #a9a9a9;
+}
+
+.new-price {
+    width: 141px;
+    height: 38px;
+    color: #f9f5f0;
+    background-color: #ee3643;
+}
+
+.popular-firm {
+    background-color: #ffffff;
+}
+
+.popular-firm h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #32425c;
+    background-color: #f9f5f0;
+}
+
+.popular-firm li {
+    list-style-type: none;
+}
+
+.service {
+    background-color: #f4f7f9;
+}
+
+.service h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.service p {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.service li {
+    list-style-type: none;
+}
+
+.service a {
+    width: 78px;
+    height: 19px;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 30px;
+    color: #f9f5f0;
+    background-color: #32425c;
+}
+
+.service a:hover {
+    color: #32425c;
+    background-color: #f9f5f0;
+}
+
+.service-type li {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #32425c;
+}
+
+.service-type p {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: none;
+    color: #32425c;
+}
+
+.service-type input {
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ff5357;
+}
+
+.general {
+    background-color: white;
+}
+
+.general h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+
+.general p {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.aboutus li {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000
+}
+
+.contact a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    background-color: #ee3643;
+}
+
+.aboutus a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    background-color: #ee3643;
+}
+
+
+/*  Стили каталога  */
+
+.breadcrumbs li {
+    list-style-type: none;
+}
+
+.breadcrumbs a {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.breadcrumbs-current {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: #32425c;
+    background-color: #f2f6f8;
+}
+
+aside {
+    background-color: #ffffff;
+}
+
+aside h2 {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #000000;
+    background-color: #f7f3ec;
+}
+
+.half-width {
+    font-family: PTSans;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000
+}
+
+.half-width label {
+    width: 220px;
+    height: 38px;
+    background-color: #f7f3ec;
+}
+
+.filter legend {
+    font-family: PTSans;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.filter {
+    font-family: PTSans;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.filter li {
+    list-style-type: none;
+}
+
+.sorting li {
+    list-style-type: none;
+}
+
+.sorting a {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+form button {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.catalog {
+    background-color: white;
+}
+
+.buy a {
+    width: 135px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #32425c;
+    background-color: white;
+    border: 3px solid #63a63e;
+}
+
+.buy a:hover {
+    width: 135px;
+    height: 38px;
+    background-color: #367315;
+    color: white;
+    border: 3px solid #367315;
+}
+
+.page li {
+    list-style-type: none;
+}
+
+.page a {
+    font-family: PTSans;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #e5e5e5;
+}
+
+.general {
+    background-color: inherit;
+}
+
+.page a:hover {
+    color: white;
+    background-color: #ee3643;
+}
+
+
+/*
+Стили футера
+*/
+
+.footer-nav .logo {
+    width: 220px;
+    height: 68px;
+    background-color: #ee3643;
+}
+
+.footer-nav {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    background-color: #32425c;
+}
+
+.footer-nav p {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #f1f5f7;
+}
+
+.footer-nav li {
+    list-style-type: none;
+}
+
+.first-line a {
+    color: #f1f5f7;
+}
+
+.second-line a {
+    color: #ffd180;
+}
+
+.footer-contacts {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    background-color: #293449;
+}
+
+.footer-contacts p {
+    color: #ffffff;
+}
+
+.footer-contacts li {
+    list-style-type: none;
+}
+
+.footer-contacts a {
+    color: #ffd180;
+}
