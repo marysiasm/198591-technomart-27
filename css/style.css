@@ -13,18 +13,19 @@ a {
     color: #ffffff;
 }
 
+.main-navigation {
+    letter-spacing: normal;
+}
+
 .main-navigation-top .logo {
     width: 220px;
     height: 47px;
     background-color: #ee3643;
 }
 
-.main-navigation {
-    letter-spacing: normal;
-    text-align: left;
-}
-
 .main-navigation-top {
+    width: auto;
+    height: 42px;
     background-color: #293449;
     font-size: 17px;
     line-height: 18x;
@@ -56,6 +57,8 @@ button {
 }
 
 .site-navigation {
+    display: block;
+    height: 60px;
     background-color: #293449;
     font-size: 17px;
     line-height: 17px;
@@ -67,7 +70,12 @@ button {
 }
 
 .block {
+    /* width: 100%;*/
+    padding-left: 130px;
+    padding-top: 179px;
+    display: flex;
     background-color: #ffffff;
+    margin-left: 20px;
 }
 
 .block li {

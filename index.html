@@ -6,34 +6,35 @@
     <title>Главная страница — HTML Academy: Техномарт</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
     <header class="main-header">
         <div class="main-navigation">
             <div class="main-navigation-top">
-                <a class="logo" href="index.html"><img src="img/logo.png" width="109" height="19" alt="Изображение логотипа техномарт"></a>
+                <a class="logo" href="index.html"><img src="img/logo.png" width="109" height="19" alt="Логотип Техномарт"></a>
                 <form>
-                    <img src="img/icon-search.svg" width="17" height="17" alt="Лупа для поиска по сайту ">
+                    <img src="img/icon-search.svg" width="17" height="17" alt="Поиск по сайту ">
                     <input type="search" name="q" placeholder="Поиск:" />
                 </form>
-                <a href=""><img src="img/icon-bookmark.svg" width="14" height="16" alt="Изображение маленького квадрата в выемкой в виде треугольника"> Закладки:0</a>
-                <a href=""><img src="img/cart-icon.svg" width="14" height="16" alt="Изображение маленькой корзины для покупок">Корзина:0</a>
+                <a href=""><img src="img/icon-bookmark.svg" width="14" height="16" alt="Закладки"> Закладки:0</a>
+                <a href=""><img src="img/cart-icon.svg" width="14" height="16" alt="Корзина">Корзина:0</a>
                 <a href="">Оформить заказ</a >
             </div>
             <div class="main-navigation-middle">
                 <p >
                     Интернет-магазин<br>строительных материалов <br> и инструментов для ремонта
                 </p>
-                <img src="img/icon-phone.svg" width="19" height="19" alt="Изображение маленькой наклонной трубки телефона">
+                <img src="img/icon-phone.svg" width="19" height="19" alt="Звонок в Техномарт">
                 <a href="tel:+78125550555">+7(812)555-05-55</a>
                 <p class="addres">
                     г.Санкт-Петербург, ул.Б.Конюшенна д.19/8
                 </p>
                 <button type="submit"><img src="img/icon-login.svg" width="20" height="17"
-          alt="Изображение маленькой стрелки вправо">Войти</button>
+          alt="Войти">Войти</button>
                 <button type="submit"><img src="img/icon-user.svg" width="20" height="18"
-          alt="Иконка в виде формы человека до плеч">Регистрация</button>
+          alt="Регистрация">Регистрация</button>
             </div>
         </div>
         <nav class="site-navigation">
@@ -62,6 +63,7 @@
             </ul>
         </div>
         <div class="slider">
+            <h2>Слайдер</h2>
             <ul>
                 <li><img src="img/slide-man1.jpg" width="620" height="266" alt="Мужчина в каске сверлит дрелью кирпичную стену">
                     <h2>Дрели</h2>
@@ -75,6 +77,8 @@
                     <a href="catalog.html">Открыть каталог</a>
                 </li>
             </ul>
+            <button class="button slider-left" type="button"></button>
+            <button class="button slider-right" type="button"></button>
         </div>
         <div class="popular-item">
             <h2>Популярные товары:</h2>
@@ -186,7 +190,9 @@
             <div class="contact">
                 <h2>Контакты</h2>
                 <p>Вы можете забрать товар сами,<br> заехав в наш офис:</p>
-                <a href="map.html"><img src="img/map.jpg" width="300" height="158" alt="Карта местонахождения"></a>
+                <h2 class=visually-hidden>Как до нас добраться</h2>
+                <a href="map.html"><img src="img/map.jpg" width="300" height="158" alt="Офис компании по адресу г.Санкт-Петербург, ул.Б.Конюшенна д.19/8"></a>
+                <button class="contact-close" type="button">Закрыть</button>
                 <a href="">Заблудились? Напишите нам</a>
             </div>
         </section>
@@ -235,23 +241,45 @@
                 <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
             </p>
             <p>Разработано:
-                <a href="https://htmlacademy.ru/">htmlacademy.ru</a>
+                <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
             </p>
         </div>
     </footer>
-    <div class="popup-main">
+
+    <div class=registration>
         <form action="url" method="post">
-            <fieldset>
-                <label>Ваше имя:</label>
-                <input type="text" value="Имя Фамилия">
-                <label>Ваше e-mail:</label>
-                <input type="text" value="email@example.com">
-                <label>Текст письма</label>
-                <input type="text" value="В свободной форме">
-            </fieldset>
-            <button type="submit">Отправить</button>
+
+            <p class="registration-form">
+                <label for="registration-name">Ваше имя:</label>
+                <input id="registration-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+            </p>
+
+
+            <button class="button" type="submit">Отправить</button>
         </form>
-    </div>
+        <div class="writeus">
+            <form action="url" method="post">
+
+                <p class="writeus-form">
+                    <label for="writeus-name">Ваше имя:</label>
+                    <input id="writeus-name" type="text" name="name" placeholder="Имя Фамилия">
+                </p>
+
+                <p class="writeus-form">
+                    <label for="writeus-email">Ваше e-mail:</label>
+                    <input id="writeus-email" type="text" name="e-mail" placeholder="email@example.com">
+                </p>
+                <p class="writeus-form">
+                    <label for="writeus-letter">Текст письма:</label>
+                    <input id="writeus-letter" type="text" placeholder="В свободной форме">
+                </p>
+
+                <button class="button" type="submit">Отправить</button>
+            </form>
+            <button class="writeus-form-close">Закрыть</button>
+        </div>
+
+
 </body>
 
 </html>

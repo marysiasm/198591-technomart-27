@@ -72,75 +72,58 @@
                 <output name="pricecount"></output>
             </div>
         </form>
-        <form class="filter" method="get">
+        <form class="filter" method="post">
             <fieldset>
                 <legend>Производители:</legend>
                 <ul>
-                    <li>
+                    <li class="filter-option">
                         <input type="checkbox" name="bosch" id="filter-bosch" checked>
-                        <label for="filter-bosch">
-              bosch
-            </label>
+                        <label for="filter-bosch">bosch</label>
                     </li>
-                    <li>
+                    <li class="filter-option">
                         <input type="checkbox" name="Интерскол" id="filter-Интерскол">
-                        <label for="filter-Интерскол">
-              Интерскол
-            </label>
+                        <label for="filter-Интерскол">Интерскол</label>
                     </li>
-                    <li>
+                    <li class="filter-option">
                         <input type="checkbox" name="Makita" id="filter-Makita" checked>
-                        <label for="filter-Makita">
-              Makita
-            </label>
+                        <label for="filter-Makita">Makita</label>
                     </li>
-                    <li>
+                    <li class="filter-option">
                         <input type="checkbox" name="Dewalt" id="filter-Dewalt">
-                        <label for="filter-Dewalt">
-              Dewalt
-            </label>
+                        <label for="filter-Dewalt">Dewalt</label>
                     </li>
-                    <li>
+                    <li class="filter-option">
                         <input type="checkbox" name="Hitachi" id="filter-Hitachi">
-                        <label for="filter-Hitachi">
-              Hitachi
-            </label>
+                        <label for="filter-Hitachi">Hitachi</label>
                     </li>
-                    <li>
+                    <li class="filter-option">
                         <input type="checkbox" name="lg" id="filter-lg">
-                        <label for="filter-lg">
-              lg
-            </label>
+                        <label for="filter-lg">lg</label>
                     </li>
-                    <li>
+                    <li class="filter-option">
                         <input type="checkbox" name="Aeg" id="filter-Aeg">
-                        <label for="filter-Aeg">
-              Aeg
-            </label>
+                        <label for="filter-Aeg">Aeg</label>
                     </li>
-                    <li>
+                    <li class="filter-option">
                         <input type="checkbox" name="AMetabo" id="filter-Metabo">
-                        <label for="filter-Metabo">
-              Metabo
-            </label>
+                        <label for="filter-Metabo">Metabo</label>
                     </li>
                 </ul>
             </fieldset>
             <fieldset>
                 <legend>Питание:</legend>
                 <ul>
-                    <li>
+                    <li class="filter-option">
                         <input type="radio" name="power-group" value="buttery" id="filter-buttery" checked>
-                        <label for="filter-buttery">
-              Аккумуляторные
-            </label>
+                        <label for="filter-buttery">Аккумуляторные</label>
+                    </li>
+                    <li class="filter-option">
                         <input type="radio" name="power-group" value="plug" id="filter-plug" checked>
-                        <label for="filter-plug">
-              Сетевые
-            </label>
+                        <label for="filter-plug"> Сетевые</label>
+                    </li>
                 </ul>
             </fieldset>
-            <button type="submit">Показать</button>
+            <button class="filter-option button" type="submit">Показать</button>
         </form>
         <div class="sorting">
             <h2>Сортировка:</h2>
@@ -161,8 +144,10 @@
                         <a href="">Перфоратор Bosch BFG 3000</a>
                     </h3>
                     <img src="img/item-drills2.jpg" width="218" height="170" alt="Перфоратор с коротким сверлом">
+
                     <p class="old-price">22500 р.</p>
                     <p class="new-price">15500 р.</p>
+
                     <div class="buy">
                         <a href="">Купить</a>
                         <a href="">В закладки</a>
@@ -173,6 +158,8 @@
                         <a href="">Перфоратор Bosch BFG 6000</a>
                     </h3>
                     <img src="img/item-drills3.jpg" width="218" height="170" alt="Перфоратор с аккумулятором">
+
+
                     <p class="old-price">30500 р.</p>
                     <p class="new-price">25500 р.</p>
                     <div class="buy">
@@ -331,6 +318,7 @@
         <p>Товар добавлен в корзину!</p>
         <a href="">Оформить заказ</a>
         <a href="">Продолжить покупки</a>
+        <button class="popup-close" type="button">Закрыть</button>
 
     </div>
 </body>
