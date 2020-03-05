@@ -122,6 +122,9 @@ button {
     margin-right: auto;
 }
 
+
+/* Как сделать в линию*/
+
 .site-navigation {
     display: flex;
     background-color: #32425c;
