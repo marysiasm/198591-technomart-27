@@ -27,6 +27,8 @@ a {
     width: 220px;
     height: 47px;
     letter-spacing: normal;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -43,6 +45,10 @@ a {
 .search input {
     background-color: transparent;
     border: none;
+}
+
+.search input:hover {
+    background-color: white;
 }
 
 .bookmark {
@@ -64,79 +70,115 @@ a {
 }
 
 .main-navigation-middle p {
-    padding-top: 21px;
-    padding-left: 31px;
+    margin-left: 183px;
+    width: 196px;
+    font-family: Cuprum;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
 }
 
 .main-navigation-middle a {
+    margin-left: 145px;
     font-size: 21px;
-    line-height: 21px;
+    line-height: 1;
     color: #e9292a;
 }
 
 .phone {
-    background-image: url("file:///C:/Users/Asha/Documents/GitHub/198591-technomart-27/img/icon-phone.svg");
-    background-repeat: no-repeat;
-    background-position-y: center;
+    width: 144px;
+    height: 21px;
+    font-family: Cuprum;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.phone a {
     border: 3px solid white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 45px;
-    padding-right: 45px;
 }
 
 .addres {
     font-size: 14px;
-    line-height: 24px;
     text-align: center;
     color: #32425c;
+    width: 250px;
+    font-family: Cuprum;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
 }
 
 button {
     font-size: 21px;
-    line-height: 21px;
     color: #000000;
     background-color: white;
     border: none;
+    height: 16px;
+    font-family: Cuprum;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
 }
 
 .login {
-    background-image: url("file:///C:/Users/Asha/Documents/GitHub/198591-technomart-27/img/icon-login.svg");
-    background-repeat: no-repeat;
-    background-position-y: center;
     width: 121px;
     height: 45px;
+    padding-left: 14px;
 }
 
 .register {
-    background-image: url("file:///C:/Users/Asha/Documents/GitHub/198591-technomart-27/img/icon-user.svg");
-    background-repeat: no-repeat;
-    background-position-y: center;
-    width: 150px;
+    width: auto;
     height: 45px;
+    margin-left: 10px;
+    padding-left: 13px;
 }
 
 .container {
     width: 940px;
-    margin-left: auto;
+    margin-left: 130px;
     margin-right: auto;
 }
-
-
-/* Как сделать в линию*/
 
 .site-navigation {
     display: flex;
     background-color: #32425c;
     border-bottom: 5px solid #293449;
+    align-items: center;
+    font-family: Cuprum;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
 }
 
 .site-navigation li {
-    align-items: center;
+    list-style-type: none;
+    padding-top: 22px;
+    padding-bottom: 26px;
 }
 
-.site-navigation a {
-    text-decoration: none;
+.list {
+    padding-left: 52px;
+}
+
+li a:hover {
+    background-color: #32425c;
 }
 
 .block {
